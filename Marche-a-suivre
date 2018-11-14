@@ -1,0 +1,9 @@
+Algorithme de suggestion : 
+Lorsqu'un joueur s'inscrit sur le site : 
+On lui demande de sélectionner ses genres préférés. La LinkedList<Genre> favouriteGenres est alors mise à jour.
+A partir de là, on propose au joueur une série d'artistes en lien avec les genres proposés (définir comment proposer ces artistes efficacement, un algo de machine learning peut être envisagé).
+Le joueur sélectionne alors les artistes qu'il préfère pour créer une LinkedList<Artiste> favouriteArtists.
+
+Cette première étape étant faite, on suggère alors à l'utilisateur des playlists de la façon suivante :
+  Grace à un système de Bucket, on classe les playlist par Genre. Les playlist sont alors trillées par leur classement (notes...)
+  
