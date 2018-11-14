@@ -8,7 +8,7 @@ public class Album {
 	public final LinkedList<Genre> genres;
 	private int rating;
 	public final int duration;
-	
+	//je suis la ?
 	public Album(String title, Artiste artiste, int dateAlbum, LinkedList<Genre> genres, int rating, int duration) {
 		this.title = title;
 		this.artiste = artiste;
